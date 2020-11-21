@@ -9,10 +9,10 @@ def is_uppercase(inp):
         else:
             return True
             
-is_uppercase("hello I AM DONALD")
-is_uppercase("ACSKLDFJSgSKLDFJSKLDFJ")
-is_uppercase("p(5eB`R"")
-is_uppercase("1^`#_DviR5o>|_tL8$JC/+3V]! )h9n4Y")
-is_uppercase("~^GP_JXbZq_+SjK:/rF;o!] {B"D0tH5hMf,1)%mus}(d")
-is_uppercase(yoplg5v7D|)_e0V>kE:dGB3^9f? .&6}mTC\8SJt#P,Xbu!)
-is_uppercase(T)k\_S^~m{_M6FhA[UPQs}g/H;Zv)B,9VRE"dtWq5&+xcKJ|7)
+is_uppercase("hello I AM DONALD")  # OK
+is_uppercase("ACSKLDFJSgSKLDFJSKLDFJ") # NOT
+is_uppercase("p(5eB`R"")  # OK
+is_uppercase("1^`#_DviR5o>|_tL8$JC/+3V]! )h9n4Y") # NOT
+is_uppercase("~^GP_JXbZq_+SjK:/rF;o!] {B"D0tH5hMf,1)%mus}(d")  # OK
+is_uppercase("yoplg5v7D|)_e0V>kE:dGB3^9f? .&6}mTC\8SJt#P,Xbu!")  # OK
+is_uppercase("T)k\_S^~m{_M6FhA[UPQs}g/H;Zv)B,9VRE"dtWq5&+xcKJ|7")  # NOT
